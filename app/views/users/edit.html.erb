@@ -4,8 +4,6 @@
     <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
       <a class="nav-link active" data-toggle="pill" href="#v-pills-home" role="tab" aria-selected="true">Edit Profile</a>
       <a class="nav-link" data-toggle="pill">Change Password</a>
-      <a class="nav-link" data-toggle="pill">Authorized Applications</a>
-      <a class="nav-link" data-toggle="pill">Email and SMS</a>
       <a class="nav-link" data-toggle="pill">Manage Contacts</a>
       <a class="nav-link" data-toggle="pill">Privacy and Security</a>
     </div>
@@ -18,7 +16,8 @@
       <%= form_with model: current_user, local: true, html: {class: "form-horizontal form-edit-user"} do |f| %>
   <div class="form-group row">
     <div class="col-sm-3 col-form-label">
-      <img class="avatar" src="https://instuigram-avatar.jpg">
+      <img class="avatar" >
+
     </div>
     <div class="col-sm-9">
       <p class="username"><%=current_user.username %></p>
