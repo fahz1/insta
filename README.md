@@ -1,25 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is still under development. The idea is to create the exact clone
+of INSTAGRAM.
 
-Things you may want to cover:
+The project is built on:
 
-* Ruby version
+* Ruby version '2.5.3'
 
-* System dependencies
+* Database used is Postgresql
 
-* Configuration
+* Gems used:
+gem bootsnap
+gem devise
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
+* Run the app using CLI and type 'rails s'
 
 * Deployment instructions
 
-* ...
 # Instagram01
